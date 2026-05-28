@@ -29,7 +29,7 @@ The project uses two Cisco routers configured in the same HSRP group to provide 
 If the active router fails, the standby router automatically takes over forwarding operations with minimal downtime.
 
 <p align="center">
-<img src="./docs/flow_chart.png" width="600">
+<img src="./docs/flow_chart.png" width="400">
 </p>
 
 ---
@@ -126,7 +126,7 @@ The topology consists of:
 - Shared HSRP Virtual Gateway
 
 <p align="center">
-<img src="./docs/topology.png" width="600">
+<img src="./docs/topology.png" width="400">
 </p>
 
 ---
@@ -209,7 +209,7 @@ ping 192.168.1.100 -t
 - Continuous ping replies received successfully
 
 <p align="center">
-<img src="./docs/active_router_status.png" width="600">
+<img src="./docs/active_router_status.png" width="400">
 </p>
 
 ---
@@ -224,7 +224,7 @@ shutdown
 ```
 
 <p align="center">
-<img src="./docs/router_failover_simulation.png" width="600">
+<img src="./docs/router_failover_simulation.png" width="400">
 </p>
 
 ---
@@ -236,9 +236,8 @@ shutdown
 - Minimal packet loss observed
 
 <p align="center">
-<b> Failover Result </b>
-<img src="./docs/failover_result1.png" width="600">
-<img src="./docs/failover_result2.png" width="600">
+<img src="./docs/failover_result1.png" width="400">
+<img src="./docs/failover_result2.png" width="400">
 </p>
 
 ---
