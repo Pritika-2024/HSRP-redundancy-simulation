@@ -29,8 +29,7 @@ The project uses two Cisco routers configured in the same HSRP group to provide 
 If the active router fails, the standby router automatically takes over forwarding operations with minimal downtime.
 
 <p align="center">
-<b> Flow Chart</b>
-<img src="./docs/flow chart.png" width="600">
+<img src="./docs/flow_chart.png" width="600">
 </p>
 
 ---
@@ -212,7 +211,7 @@ ping 192.168.1.100 -t
 
 <p align="center">
 <b> Active Router Status </b>
-<img src="./docs/active_router.png" width="600">
+<img src="./docs/active_router_status.png" width="600">
 </p>
 
 ---
@@ -228,7 +227,7 @@ shutdown
 
 <p align="center">
 <b> Router Failure Simulation </b>
-<img src="./docs/router_shutdown.png" width="600">
+<img src="./docs/router_failure_simulation.png" width="600">
 </p>
 
 ---
@@ -241,7 +240,8 @@ shutdown
 
 <p align="center">
 <b> Failover Result </b>
-<img src="./docs/failover.png" width="600">
+<img src="./docs/failover_result1.png" width="600">
+<img src="./docs/failover_result2.png" width="600">
 </p>
 
 ---
@@ -252,7 +252,7 @@ HSRP routers exchange hello packets periodically to maintain redundancy.
 
 <p align="center">
 <b> HSRP Packet Flow </b>
-<img src="./docs/packet_flow.png" width="600">
+<img src="./docs/HSRP_packet_flow.png" width="600">
 </p>
 
 The simulation verified:
