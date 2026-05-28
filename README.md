@@ -224,7 +224,7 @@ shutdown
 ```
 
 <p align="center">
-<img src="./docs/router_failure_simulation.png" width="600">
+<img src="./docs/router_failover_simulation.png" width="600">
 </p>
 
 ---
@@ -259,7 +259,7 @@ The simulation verified:
 
 ---
 
-# 🛠 Components Used
+# Components Used
 
 | # | Component | Purpose |
 |---|---|---|
