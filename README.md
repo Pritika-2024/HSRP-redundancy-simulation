@@ -117,7 +117,7 @@ This occurs because preemption is enabled.
 
 ---
 
-# 🌐 Network Topology
+#  Network Topology
 
 The topology consists of:
 
@@ -133,7 +133,7 @@ The topology consists of:
 
 ---
 
-# 📡 IP Addressing
+#  IP Addressing
 
 | Device | IP Address |
 |---|---|
@@ -144,7 +144,7 @@ The topology consists of:
 
 ---
 
-# 🔧 Router Configuration
+#  Router Configuration
 
 ## Router R1 Configuration
 
@@ -184,7 +184,7 @@ exit
 
 ---
 
-# 💻 PC Configuration
+#  PC Configuration
 
 | Parameter | Value |
 |---|---|
@@ -194,7 +194,7 @@ exit
 
 ---
 
-# 🔄 Failover Testing
+#  Failover Testing
 
 Continuous ping testing is performed from the PC to the virtual gateway.
 
@@ -275,7 +275,7 @@ The simulation verified:
 
 ---
 
-# 📜 Commands Used
+#  Commands Used
 
 | Command | Purpose |
 |---|---|
@@ -288,7 +288,7 @@ The simulation verified:
 
 ---
 
-# 📊 Results
+#  Results
 
 The project successfully demonstrated HSRP gateway redundancy.
 
@@ -316,7 +316,7 @@ The project successfully demonstrated HSRP gateway redundancy.
 
 ---
 
-# ✅ Advantages
+#  Advantages
 
 - High Availability
 - Automatic Failover
@@ -327,7 +327,7 @@ The project successfully demonstrated HSRP gateway redundancy.
 
 ---
 
-# ⚠️ Limitations
+#  Limitations
 
 - Cisco proprietary protocol
 - Requires multiple routers
@@ -337,7 +337,7 @@ The project successfully demonstrated HSRP gateway redundancy.
 
 ---
 
-# 🚀 Future Scope
+#  Future Scope
 
 - Implement VRRP
 - Implement GLBP
@@ -348,7 +348,7 @@ The project successfully demonstrated HSRP gateway redundancy.
 
 ---
 
-# 📚 Applications
+#  Applications
 
 - Enterprise Networks
 - Data Centers
@@ -359,7 +359,7 @@ The project successfully demonstrated HSRP gateway redundancy.
 
 ---
 
-# 🏁 Conclusion
+# Conclusion
 
 The project successfully demonstrated the implementation of HSRP for gateway redundancy and failover protection using Cisco routers.
 
@@ -367,7 +367,7 @@ By configuring two routers with a shared virtual gateway, uninterrupted connecti
 
 ---
 
-# 📖 References
+# References
 
 1. Cisco HSRP Documentation  
 2. Cisco Packet Tracer  
