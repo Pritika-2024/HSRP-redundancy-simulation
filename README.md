@@ -29,8 +29,8 @@ The project uses two Cisco routers configured in the same HSRP group to provide 
 If the active router fails, the standby router automatically takes over forwarding operations with minimal downtime.
 
 <p align="center">
-<b> HSRP Network Topology </b>
-<img src="./docs/topology.png" width="600">
+<b> Flow Chart</b>
+<img src="./docs/flow chart.png" width="600">
 </p>
 
 ---
@@ -128,7 +128,7 @@ The topology consists of:
 
 <p align="center">
 <b> Network Topology </b>
-<img src="./docs/hsrp_topology.png" width="600">
+<img src="./docs/topology.png" width="600">
 </p>
 
 ---
