@@ -22,7 +22,7 @@
 
 ---
 
-# ⚙️ How It Works
+#  How It Works
 
 The project uses two Cisco routers configured in the same HSRP group to provide gateway redundancy. One router operates as the **Active Router**, while the second router remains in **Standby Mode**. Both routers share a common **Virtual IP Address** that acts as the default gateway for all client devices.
 
@@ -126,7 +126,6 @@ The topology consists of:
 - Shared HSRP Virtual Gateway
 
 <p align="center">
-<b> Network Topology </b>
 <img src="./docs/topology.png" width="600">
 </p>
 
@@ -210,7 +209,6 @@ ping 192.168.1.100 -t
 - Continuous ping replies received successfully
 
 <p align="center">
-<b> Active Router Status </b>
 <img src="./docs/active_router_status.png" width="600">
 </p>
 
@@ -226,7 +224,6 @@ shutdown
 ```
 
 <p align="center">
-<b> Router Failure Simulation </b>
 <img src="./docs/router_failure_simulation.png" width="600">
 </p>
 
@@ -246,13 +243,12 @@ shutdown
 
 ---
 
-# 📨 Packet Flow Analysis
+#  Packet Flow Analysis
 
 HSRP routers exchange hello packets periodically to maintain redundancy.
 
 <p align="center">
-<b> HSRP Packet Flow </b>
-<img src="./docs/HSRP_packet_flow.png" width="600">
+<img src="./docs/HSRP_packet_flow.png" width="1000">
 </p>
 
 The simulation verified:
